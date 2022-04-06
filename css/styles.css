@@ -440,7 +440,7 @@ img {
   position: relative;
   overflow: hidden;
 }
-. .portf-text-box {
+.portf-text-box {
   background-color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(238, 238, 238, 1);
   padding: 20px 24px;
@@ -464,7 +464,6 @@ img {
   display: block;
   transition: box-shadow var(--anim-fast);
 }
-.portf-project-link:hover,
 .portf-project-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
