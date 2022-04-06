@@ -70,7 +70,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="button hero-button">Заказать услугу</button>
+          <button class="button hero-button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!-- Почему мы -->
@@ -141,7 +141,7 @@
                 width="370"
                 height="294"
               />
-              <div class="whatdo-textbox"><p class="whatdo-text">Десктопные приложения</p></div>
+              <div class="whatdo-textbox"><h3 class="whatdo-text">Десктопные приложения</h3></div>
             </li>
             <li class="whatdo-item">
               <img
@@ -150,7 +150,7 @@
                 width="370"
                 height="294"
               />
-              <div class="whatdo-textbox"><p class="whatdo-text">Мобильные приложения</p></div>
+              <div class="whatdo-textbox"><h3 class="whatdo-text">Мобильные приложения</h3></div>
             </li>
             <li class="whatdo-item">
               <img
@@ -159,7 +159,7 @@
                 width="370"
                 height="294"
               />
-              <div class="whatdo-textbox"><p class="whatdo-text">Дизайнерские решения</p></div>
+              <div class="whatdo-textbox"><h3 class="whatdo-text">Дизайнерские решения</h3></div>
             </li>
           </ul>
         </div>
@@ -467,5 +467,17 @@
         </div>
       </div>
     </footer>
+    <!-- Модальное окно -->
+    <div class="modal-backdrop is-hidden" data-modal>
+      <div class="modal-wrapper">
+        <button class="button modal-btn" data-modal-close>
+          <svg class="icon" width="11" height="11">
+          <use href="/images/icons.svg#icon-vector"></use>
+        </svg>
+      </button>
+        <p></p>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
